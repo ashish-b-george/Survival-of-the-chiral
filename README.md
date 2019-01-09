@@ -25,4 +25,8 @@ Description of the files are below:
 
 
 -----------------various script for analyzing on lattice simulation results ----------------
-"new_extract_all_walls_line_cluster_nojumps_destpath.py"	and "new_extract_wall_circle.py" are used to extract the domain boundaries in rectangular and circular expansions respectively
+"new_extract_all_walls_line_cluster_nojumps_destpath.py", "new_extract_all_walls_line_cluster_nojumps.py"	and "new_extract_wall_circle.py" are used to extract the domain boundaries in rectangular and circular expansions respectively
+
+"new_fstar_fbar_fig.py" is used for the f* vs fbar plot
+
+"new_neutralHdecay_htime_avg_cluster.py", "plot_htime.py", "new_neutralHdecay_htime_plot.py" plots Heterozygosity in time from simulation in Fig 8 adn SI figs. The first file averages heterozygosity over runs with same parameters but different realizations of the noise, the second and third make plots.
